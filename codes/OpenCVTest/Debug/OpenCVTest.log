@@ -1,0 +1,57 @@
+﻿빌드 시작: 2015-08-26 오전 7:05:48
+     1>2 노드의 "C:\Users\huijun\Documents\Visual Studio 2010\Projects\OpenCVTest\OpenCVTest\OpenCVTest.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\HighlightExtraction_FromSoccerVideo.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\OpenCV\opencv\build\include" /I"D:\SFML-2.1-windows-vc11-64bits\SFML-2.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D SFML_STATIC /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\HighlightExtraction_FromSoccerVideo.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\OpenCV\opencv\build\include" /I"D:\SFML-2.1-windows-vc11-64bits\SFML-2.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D SFML_STATIC /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\HighlightExtraction_FromSoccerVideo.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\program files\opencv\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\opencv\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>c:\program files\opencv\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\opencv\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\users\huijun\documents\visual studio 2010\projects\opencvtest\opencvtest\main.cpp(248): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\huijun\documents\visual studio 2010\projects\opencvtest\opencvtest\main.cpp(249): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\huijun\documents\visual studio 2010\projects\opencvtest\opencvtest\main.cpp(251): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\huijun\documents\visual studio 2010\projects\opencvtest\opencvtest\main.cpp(252): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\huijun\documents\visual studio 2010\projects\opencvtest\opencvtest\main.cpp(253): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\huijun\documents\visual studio 2010\projects\opencvtest\opencvtest\main.cpp(257): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\huijun\documents\visual studio 2010\projects\opencvtest\opencvtest\main.cpp(275): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\huijun\documents\visual studio 2010\projects\opencvtest\opencvtest\main.cpp(276): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\huijun\documents\visual studio 2010\projects\opencvtest\opencvtest\main.cpp(282): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\huijun\documents\visual studio 2010\projects\opencvtest\opencvtest\main.cpp(182): warning C4101: 'fps' :참조되지 않은 지역 변수입니다.
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\HighlightExtraction_FromSoccerVideo.exe.embed.manifest.res" Debug\HighlightExtraction_FromSoccerVideo_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\huijun\Documents\Visual Studio 2010\Projects\OpenCVTest\Debug\HighlightExtraction_FromSoccerVideo.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\OpenCV\opencv\build\x86\vc10\lib" opencv_core249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib opencv_ml249d.lib opencv_video249d.lib opencv_features2d249d.lib opencv_calib3d249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HighlightExtraction_FromSoccerVideo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\huijun\Documents\Visual Studio 2010\Projects\OpenCVTest\Debug\HighlightExtraction_FromSoccerVideo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\huijun\Documents\Visual Studio 2010\Projects\OpenCVTest\Debug\HighlightExtraction_FromSoccerVideo.lib" /MACHINE:X86 Debug\HighlightExtraction_FromSoccerVideo.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\HighlightExtraction_FromSoccerVideo.exe.embed.manifest" /manifest Debug\HighlightExtraction_FromSoccerVideo.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\HighlightExtraction_FromSoccerVideo.exe.embed.manifest.res" Debug\HighlightExtraction_FromSoccerVideo_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\huijun\Documents\Visual Studio 2010\Projects\OpenCVTest\Debug\HighlightExtraction_FromSoccerVideo.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\OpenCV\opencv\build\x86\vc10\lib" opencv_core249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib opencv_ml249d.lib opencv_video249d.lib opencv_features2d249d.lib opencv_calib3d249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HighlightExtraction_FromSoccerVideo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\huijun\Documents\Visual Studio 2010\Projects\OpenCVTest\Debug\HighlightExtraction_FromSoccerVideo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\huijun\Documents\Visual Studio 2010\Projects\OpenCVTest\Debug\HighlightExtraction_FromSoccerVideo.lib" /MACHINE:X86 Debug\HighlightExtraction_FromSoccerVideo.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\stdafx.obj
+         OpenCVTest.vcxproj -> C:\Users\huijun\Documents\Visual Studio 2010\Projects\OpenCVTest\Debug\HighlightExtraction_FromSoccerVideo.exe
+       FinalizeBuildStatus:
+         "Debug\HighlightExtraction_FromSoccerVideo.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\HighlightExtraction_FromSoccerVideo.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\huijun\Documents\Visual Studio 2010\Projects\OpenCVTest\OpenCVTest\OpenCVTest.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:07.76
